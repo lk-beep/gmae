@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ostoslista</title>
+    <link rel="icon" href="download.png" type="image/icon type">
+    <link rel="stylesheet" type="text/css" href="ostoslista.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ostoslista</h1>
+        <br>
+        <label for="tuote">Mitä:</label>
+        <input id="tuote" type="text" required>
+        <br><br>
+        <label for="maara">Kuinka monta:</label>
+        <input id="maara" type="number" required>
+        <br><br>
+        <button onclick="lisaaTuote()">Lisää tuote listaan</button>
+        <br><br>
+        <label for="poistaTuoteNimi">Poistettava tuote:</label>
+        <input id="poistaTuoteNimi" type="text">
+        <button onclick="poistaTuote()">Poista tuote listasta</button>
+        <br><br>
+        <label for="paivitaTuote">Päivitettävä tuote:</label>
+        <input id="paivitaTuote" type="text">
+        <label for="uusiMaara">Uusi määrä:</label>
+        <input id="uusiMaara" type="number">
+        <button onclick="paivitamaara()">Päivitä määrä</button>
+        <br><br>
+        <label>Lista</label>
+        <ul id="ostoslista"></ul>
+        <br><br>
+    </div>
+    <script src="ostoslista.js"></script>
+</body>
+</html>
