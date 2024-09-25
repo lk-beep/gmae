@@ -1,0 +1,33 @@
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+div {
+    border: 1px solid #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+#box1, #box2, #box3, #box4, #box5{
+    flex-basis: 17%;
+    height: 100px;
+}
+#box1 { background-color: #4CAF50; }
+#box2 { background-color: #2196F3; }
+#box3 { background-color: #FF9800; }
+#box4 { background-color: #E91E63; }
+#box5 { background-color: #9C27B0; }
+
+#box1a, #box2a, #box3a, #box4a, #box5a {
+    background-color: #ddd;
+    color: #333;
+    width: 17%;
+    margin-top: -5px;
+}

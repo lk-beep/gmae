@@ -1,0 +1,7 @@
+p {
+    float: inline-end;
+}
+img {
+    float: inline-start;
+    size: 100%;
+}
