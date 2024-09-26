@@ -35,7 +35,9 @@ div {
     width: 50%;
     background-color: red;
     font-size: 20px;
-    padding: 20px;
+    padding: 10px 0px 10px 0px;
+    border-style: solid;
+    border-color: black;
 }
 #box1a {
     grid-area: box1a;
@@ -48,6 +50,8 @@ div {
     font-size: 14px;
     color: #333;
     width: 100%;
+    border-style: solid;
+    border-color: black;
 }
 #box2a {
     grid-area: box2a;
@@ -67,6 +71,8 @@ div {
     font-size: 14px;
     color: #333;
     width: 50%;
+    border-style: solid;
+    border-color: black;
 }
 
 #box1, #box2, #box3, #box4 {
@@ -75,7 +81,9 @@ div {
     width: 100%;
     background-color: red;
     font-size: 20px;
-    padding: 20px;
+    padding: 10px 0px 10px 0px;
+    border-style: solid;
+    border-color: black;
 }
 
 #box2a, #box3a, #box4a {
@@ -85,4 +93,6 @@ div {
     font-size: 14px;
     color: #333;
     width: 100%;
+    border-style: solid;
+    border-color: black;
 }
